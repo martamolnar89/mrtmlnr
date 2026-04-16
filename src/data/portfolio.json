@@ -1,0 +1,207 @@
+{
+  "hero": {
+    "image": "/photos/hero.jpg",
+    "eyebrow": "Fotográfia, szívvel",
+    "title": "Ahol az érzések\nképpé válnak",
+    "subtitle": "Esküvő · Jegyes · Családi · Portré · Divat"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "category": "Esküvő",
+      "title": "Luca & Dani",
+      "image": "/photos/luca-dani/07.jpg",
+      "layout": "wide",
+      "gallery": [
+        "/photos/luca-dani/01.jpg",
+        "/photos/luca-dani/02.jpg",
+        "/photos/luca-dani/03.jpg",
+        "/photos/luca-dani/04.jpg",
+        "/photos/luca-dani/05.jpg",
+        "/photos/luca-dani/06.jpg",
+        "/photos/luca-dani/07.jpg",
+        "/photos/luca-dani/08.jpg",
+        "/photos/luca-dani/09.jpg",
+        "/photos/luca-dani/10.jpg",
+        "/photos/luca-dani/11.jpg",
+        "/photos/luca-dani/12.jpg",
+        "/photos/luca-dani/13.jpg",
+        "/photos/luca-dani/14.jpg",
+        "/photos/luca-dani/15.jpg",
+        "/photos/luca-dani/16.jpg",
+        "/photos/luca-dani/17.jpg",
+        "/photos/luca-dani/18.jpg",
+        "/photos/luca-dani/19.jpg",
+        "/photos/luca-dani/20.jpg",
+        "/photos/luca-dani/21.jpg",
+        "/photos/luca-dani/22.jpg",
+        "/photos/luca-dani/23.jpg",
+        "/photos/luca-dani/24.jpg",
+        "/photos/luca-dani/25.jpg",
+        "/photos/luca-dani/26.jpg",
+        "/photos/luca-dani/27.jpg",
+        "/photos/luca-dani/28.jpg",
+        "/photos/luca-dani/29.jpg",
+        "/photos/luca-dani/30.jpg",
+        "/photos/luca-dani/31.jpg",
+        "/photos/luca-dani/32.jpg",
+        "/photos/luca-dani/33.jpg",
+        "/photos/luca-dani/34.jpg",
+        "/photos/luca-dani/35.jpg",
+        "/photos/luca-dani/36.jpg",
+        "/photos/luca-dani/37.jpg",
+        "/photos/luca-dani/38.jpg",
+        "/photos/luca-dani/39.jpg",
+        "/photos/luca-dani/40.jpg",
+        "/photos/luca-dani/41.jpg",
+        "/photos/luca-dani/42.jpg",
+        "/photos/luca-dani/43.jpg",
+        "/photos/luca-dani/44.jpg",
+        "/photos/luca-dani/45.jpg",
+        "/photos/luca-dani/46.jpg",
+        "/photos/luca-dani/47.jpg",
+        "/photos/luca-dani/48.jpg",
+        "/photos/luca-dani/49.jpg",
+        "/photos/luca-dani/50.jpg",
+        "/photos/luca-dani/51.jpg",
+        "/photos/luca-dani/52.jpg",
+        "/photos/luca-dani/53.jpg",
+        "/photos/luca-dani/54.jpg",
+        "/photos/luca-dani/55.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Portré",
+      "title": "Between Shadows",
+      "image": "/photos/portre-1/06.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/portre-1/01.jpg",
+        "/photos/portre-1/02.jpg",
+        "/photos/portre-1/03.jpg",
+        "/photos/portre-1/04.jpg",
+        "/photos/portre-1/05.jpg",
+        "/photos/portre-1/06.jpg",
+        "/photos/portre-1/07.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Divat",
+      "title": "Urban Soul",
+      "image": "/photos/portre-2/01.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/portre-2/01.jpg",
+        "/photos/portre-2/02.jpg",
+        "/photos/portre-2/03.jpg",
+        "/photos/portre-2/04.jpg",
+        "/photos/portre-2/05.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Esküvő",
+      "title": "Zsófi & Peti",
+      "image": "/photos/eskuvo-2/52.jpg",
+      "layout": "wide",
+      "gallery": [
+        "/photos/eskuvo-2/01.jpg", "/photos/eskuvo-2/02.jpg", "/photos/eskuvo-2/03.jpg",
+        "/photos/eskuvo-2/04.jpg", "/photos/eskuvo-2/05.jpg", "/photos/eskuvo-2/06.jpg",
+        "/photos/eskuvo-2/07.jpg", "/photos/eskuvo-2/08.jpg", "/photos/eskuvo-2/09.jpg",
+        "/photos/eskuvo-2/10.jpg", "/photos/eskuvo-2/11.jpg", "/photos/eskuvo-2/12.jpg",
+        "/photos/eskuvo-2/13.jpg", "/photos/eskuvo-2/14.jpg", "/photos/eskuvo-2/15.jpg",
+        "/photos/eskuvo-2/16.jpg", "/photos/eskuvo-2/17.jpg", "/photos/eskuvo-2/18.jpg",
+        "/photos/eskuvo-2/19.jpg", "/photos/eskuvo-2/20.jpg", "/photos/eskuvo-2/21.jpg",
+        "/photos/eskuvo-2/22.jpg", "/photos/eskuvo-2/23.jpg", "/photos/eskuvo-2/24.jpg",
+        "/photos/eskuvo-2/25.jpg", "/photos/eskuvo-2/26.jpg",
+        "/photos/eskuvo-2/28.jpg", "/photos/eskuvo-2/29.jpg", "/photos/eskuvo-2/30.jpg",
+        "/photos/eskuvo-2/31.jpg", "/photos/eskuvo-2/32.jpg", "/photos/eskuvo-2/33.jpg",
+        "/photos/eskuvo-2/34.jpg", "/photos/eskuvo-2/35.jpg", "/photos/eskuvo-2/36.jpg",
+        "/photos/eskuvo-2/37.jpg", "/photos/eskuvo-2/38.jpg", "/photos/eskuvo-2/39.jpg",
+        "/photos/eskuvo-2/40.jpg", "/photos/eskuvo-2/41.jpg", "/photos/eskuvo-2/42.jpg",
+        "/photos/eskuvo-2/43.jpg", "/photos/eskuvo-2/44.jpg", "/photos/eskuvo-2/45.jpg",
+        "/photos/eskuvo-2/46.jpg", "/photos/eskuvo-2/47.jpg", "/photos/eskuvo-2/48.jpg",
+        "/photos/eskuvo-2/49.jpg", "/photos/eskuvo-2/50.jpg", "/photos/eskuvo-2/51.jpg",
+        "/photos/eskuvo-2/52.jpg", "/photos/eskuvo-2/53.jpg", "/photos/eskuvo-2/54.jpg",
+        "/photos/eskuvo-2/55.jpg", "/photos/eskuvo-2/56.jpg", "/photos/eskuvo-2/57.jpg",
+        "/photos/eskuvo-2/58.jpg", "/photos/eskuvo-2/59.jpg", "/photos/eskuvo-2/60.jpg",
+        "/photos/eskuvo-2/61.jpg", "/photos/eskuvo-2/62.jpg", "/photos/eskuvo-2/63.jpg",
+        "/photos/eskuvo-2/64.jpg", "/photos/eskuvo-2/65.jpg", "/photos/eskuvo-2/66.jpg",
+        "/photos/eskuvo-2/67.jpg", "/photos/eskuvo-2/68.jpg", "/photos/eskuvo-2/69.jpg",
+        "/photos/eskuvo-2/70.jpg", "/photos/eskuvo-2/71.jpg", "/photos/eskuvo-2/72.jpg",
+        "/photos/eskuvo-2/73.jpg", "/photos/eskuvo-2/74.jpg", "/photos/eskuvo-2/75.jpg",
+        "/photos/eskuvo-2/76.jpg", "/photos/eskuvo-2/77.jpg", "/photos/eskuvo-2/78.jpg",
+        "/photos/eskuvo-2/79.jpg", "/photos/eskuvo-2/80.jpg", "/photos/eskuvo-2/81.jpg",
+        "/photos/eskuvo-2/82.jpg", "/photos/eskuvo-2/83.jpg", "/photos/eskuvo-2/84.jpg",
+        "/photos/eskuvo-2/85.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Családi",
+      "title": "Together",
+      "image": "/photos/portre-3/01.jpg",
+      "layout": "square",
+      "gallery": [
+        "/photos/portre-3/01.jpg", "/photos/portre-3/02.jpg", "/photos/portre-3/03.jpg",
+        "/photos/portre-3/04.jpg", "/photos/portre-3/05.jpg", "/photos/portre-3/06.jpg",
+        "/photos/portre-3/07.jpg", "/photos/portre-3/08.jpg", "/photos/portre-3/09.jpg",
+        "/photos/portre-3/10.jpg", "/photos/portre-3/11.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Jegyes",
+      "title": "Golden Hour",
+      "image": "/photos/jegyes-1/07.jpg",
+      "layout": "square",
+      "gallery": [
+        "/photos/jegyes-1/01.jpg", "/photos/jegyes-1/02.jpg", "/photos/jegyes-1/03.jpg",
+        "/photos/jegyes-1/04.jpg", "/photos/jegyes-1/05.jpg", "/photos/jegyes-1/06.jpg",
+        "/photos/jegyes-1/07.jpg", "/photos/jegyes-1/08.jpg", "/photos/jegyes-1/09.jpg",
+        "/photos/jegyes-1/10.jpg"
+      ]
+    }
+  ],
+  "about": {
+    "image": "/photos/about.jpg",
+    "paragraphs": [
+      "Talán nyolcéves lehettem, amikor először fényképezőgépet fogtam a kezembe — és be kell valljam, nem lettek életem képei. De az a pillanat elindított valamit, ami azóta sem hagyott nyugodni.",
+      "Az évek során neves és tapasztalt mesterektől tanulhattam, és közben megtaláltam azt, amit igazán szeretek: az emberek történeteit elmesélni fénnyel és kompozícióval. Esküvők, jegyes- és családi fotózások, portrék, divatfotók — minden kép mögött egy érzés áll, amit érdemes megőrizni."
+    ]
+  },
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Zsófi & Peti",
+      "text": "Kreatív fotózásra kértük meg Mártit - egy laza, városi hangulatú sorozatot szerettünk volna. Mindkét helyszínen szuper koncepciókat talált ki, és sokat segített nekünk, mikor milyen beállításokat, mozdulatokat próbáljunk ki. Mikor megkaptuk a felvételeket, akkor láttuk meg igazán, ezek milyen jól működtek; a humorostól a bensőségesig sokféle, ötletes képünk lett, profin kidolgozva, mindamellett, hogy úgy érezzük, a képek igazán mi vagyunk.",
+      "image": "/photos/testimonial-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tamara & Kristóf",
+      "text": "Páros fotózáson voltunk Mártinál és már az elején nagyon jó hangulat alakult ki. A párom aki kifejezetten feszült és nem szereti ha fotózzák elengedte magát és felszabadultan állt a kamera előtt. Minden elképzelésünket fotóra vetette és a képekben is azt láttuk amire vágytunk. Szívből ajánlom, mi imádjuk a végeredményt, a képek önmagukért beszélnek.",
+      "image": "/photos/testimonial-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Enikő",
+      "text": "Nagyon imádtam veled dolgozni, egyáltalán nem izgultam, vidám, felszabadult volt mindegyik fotózás. A végeredményeket pedig egyenesen imádom! Az életem legboldogabb pillanataiban fotóztál!! Mindig meleg szívvel nézem vissza a képeket és eszembe jutnak az akkori érzéseim. Köszönöm Neked!",
+      "image": "/photos/testimonial-3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Viktória",
+      "text": "Nagyon jó volt Mártival együtt alkotni. Nem kellett feszélyezve érezni magad. Nagyon jó fej és barátságos. Örültem, hogy fotózhattunk együtt. Bátran ajánlom bárkinek.",
+      "image": "/photos/testimonial-4.jpg"
+    }
+  ],
+  "contact": {
+    "email": "mrtmlnrphotography@gmail.com",
+    "location": "Budapest, Magyarország",
+    "instagram": "https://www.instagram.com/mrtmlnrphotography/",
+    "facebook": "https://www.facebook.com/mrtmlnr.photography/"
+  }
+}

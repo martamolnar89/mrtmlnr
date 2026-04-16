@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import data from '../data/portfolio.json'
+import { useLang } from './LangContext'
 import useReveal from './useReveal'
 import Lightbox from './Lightbox'
 
@@ -25,16 +26,17 @@ function PortfolioItem({ project, index, onClick }) {
 export default function Portfolio() {
   const headerReveal = useReveal()
   const [active, setActive] = useState(null)
+  const { t } = useLang()
 
   return (
     <section id="portfolio">
       <div ref={headerReveal.ref} className={`section-header ${headerReveal.className}`}>
         <div>
-          <span className="section-number">— 01 / Munkáim</span>
-          <h2 className="section-title">Válogatott gyűjtemény</h2>
+          <span className="section-number">{t.portfolio.number}</span>
+          <h2 className="section-title">{t.portfolio.title}</h2>
         </div>
         <div className="section-meta">
-          {data.projects.length} projekt · 2020 — 2026
+          {data.projects.length} {t.portfolio.meta}
         </div>
       </div>
 

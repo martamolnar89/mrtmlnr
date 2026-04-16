@@ -1,3 +1,4 @@
+import { LangProvider } from './components/LangContext'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Portfolio from './components/Portfolio'
@@ -9,7 +10,7 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <>
+    <LangProvider>
       <Nav />
       <Hero />
       <Portfolio />
@@ -18,6 +19,6 @@ export default function App() {
       <Testimonials />
       <ContactForm />
       <Footer />
-    </>
+    </LangProvider>
   )
 }

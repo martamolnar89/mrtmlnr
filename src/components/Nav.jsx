@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react'
+import { useLang } from './LangContext'
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const { lang, t, toggle } = useLang()
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 80)
@@ -24,28 +26,38 @@ export default function Nav() {
           mrtmlnr photography
         </div>
         <ul className="nav-links">
-          <li><a href="#portfolio">Portfólió</a></li>
-          <li><a href="#about">Rólam</a></li>
-          <li><a href="#services">Szolgáltatások</a></li>
-          <li><a href="#contact-form">Kapcsolat</a></li>
+          <li><a href="#portfolio">{t.nav.portfolio}</a></li>
+          <li><a href="#about">{t.nav.about}</a></li>
+          <li><a href="#services">{t.nav.services}</a></li>
+          <li><a href="#contact-form">{t.nav.contact}</a></li>
+          <li>
+            <button className="lang-toggle" onClick={toggle}>
+              {lang === 'hu' ? 'EN' : 'HU'}
+            </button>
+          </li>
         </ul>
-        <button
-          className={`hamburger${menuOpen ? ' open' : ''}`}
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Menü"
-        >
-          <span />
-          <span />
-          <span />
-        </button>
+        <div className="nav-right-mobile">
+          <button className="lang-toggle" onClick={toggle}>
+            {lang === 'hu' ? 'EN' : 'HU'}
+          </button>
+          <button
+            className={`hamburger${menuOpen ? ' open' : ''}`}
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="Menü"
+          >
+            <span />
+            <span />
+            <span />
+          </button>
+        </div>
       </nav>
 
       <div className={`mobile-menu${menuOpen ? ' active' : ''}`}>
         <ul>
-          <li><a href="#portfolio" onClick={close}>Portfólió</a></li>
-          <li><a href="#about" onClick={close}>Rólam</a></li>
-          <li><a href="#services" onClick={close}>Szolgáltatások</a></li>
-          <li><a href="#contact-form" onClick={close}>Kapcsolat</a></li>
+          <li><a href="#portfolio" onClick={close}>{t.nav.portfolio}</a></li>
+          <li><a href="#about" onClick={close}>{t.nav.about}</a></li>
+          <li><a href="#services" onClick={close}>{t.nav.services}</a></li>
+          <li><a href="#contact-form" onClick={close}>{t.nav.contact}</a></li>
         </ul>
       </div>
     </>

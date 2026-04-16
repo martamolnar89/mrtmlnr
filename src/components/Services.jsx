@@ -1,32 +1,5 @@
+import { useLang } from './LangContext'
 import useReveal from './useReveal'
-
-const services = [
-  {
-    num: '001',
-    title: 'Esküvő',
-    desc: 'Teljes napos jelenlét, riportfotózás és művészi portrék. Az érzelmeket és a részleteket egyaránt rögzítem — úgy, ahogy a pillanat kéri.',
-  },
-  {
-    num: '002',
-    title: 'Jegyes',
-    desc: 'Laza, természetes hangulatú páros fotózás az esküvő előtt. Megismerkedünk, ráhangolódunk — és a képek máris mesélnek.',
-  },
-  {
-    num: '003',
-    title: 'Család',
-    desc: 'Közös pillanatok, őszinte mosolyok, igazi kapcsolódás. Stúdióban vagy szabadtéren, a lényeg az együtt töltött idő.',
-  },
-  {
-    num: '004',
-    title: 'Portré',
-    desc: 'Stúdiós és természetes fényű portrék egyéneknek, pároknak. Nyugodt, őszinte légkörben, ahol önmagad lehetsz.',
-  },
-  {
-    num: '005',
-    title: 'Divat',
-    desc: 'Kreatív és editorial fotózás márkáknak, stylistoknak, modelleknek. Karakteres, ötletes képek, amelyek kitűnnek.',
-  },
-]
 
 function ServiceItem({ service }) {
   const reveal = useReveal()
@@ -41,19 +14,20 @@ function ServiceItem({ service }) {
 
 export default function Services() {
   const headerReveal = useReveal()
+  const { t } = useLang()
 
   return (
     <section id="services" className="services">
       <div ref={headerReveal.ref} className={`section-header ${headerReveal.className}`}>
         <div>
-          <span className="section-number">— 03 / Szolgáltatások</span>
-          <h2 className="section-title">Amit kínálok</h2>
+          <span className="section-number">{t.services.number}</span>
+          <h2 className="section-title">{t.services.title}</h2>
         </div>
-        <div className="section-meta">Öt fő terület</div>
+        <div className="section-meta">{t.services.meta}</div>
       </div>
 
       <div className="services-grid">
-        {services.map((s) => (
+        {t.services.items.map((s) => (
           <ServiceItem key={s.num} service={s} />
         ))}
       </div>

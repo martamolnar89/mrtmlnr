@@ -1,0 +1,134 @@
+{
+  "hu": {
+    "nav": {
+      "portfolio": "Portfólió",
+      "about": "Rólam",
+      "services": "Szolgáltatások",
+      "contact": "Kapcsolat"
+    },
+    "hero": {
+      "eyebrow": "Fotográfia, szívvel",
+      "title": "Ahol az érzések\nképpé válnak",
+      "subtitle": "Esküvő · Jegyes · Családi · Portré · Divat",
+      "scroll": "Tekerj lejjebb"
+    },
+    "portfolio": {
+      "number": "— 01 / Munkáim",
+      "title": "Válogatott gyűjtemény",
+      "meta": "projekt · 2020 — 2026"
+    },
+    "about": {
+      "number": "— 02 / Rólam",
+      "title": "Minden fotó mögött áll egy történet",
+      "paragraphs": [
+        "Talán nyolcéves lehettem, amikor először fényképezőgépet fogtam a kezembe — és be kell valljam, nem lettek életem képei. De az a pillanat elindított valamit, ami azóta sem hagyott nyugodni.",
+        "Az évek során neves és tapasztalt mesterektől tanulhattam, és közben megtaláltam azt, amit igazán szeretek: az emberek történeteit elmesélni fénnyel és kompozícióval. Esküvők, jegyes- és családi fotózások, portrék, divatfotók — minden kép mögött egy érzés áll, amit érdemes megőrizni."
+      ],
+      "signature": "— Molnár Márta"
+    },
+    "services": {
+      "number": "— 03 / Szolgáltatások",
+      "title": "Amit kínálok",
+      "meta": "Öt fő terület",
+      "items": [
+        { "num": "001", "title": "Esküvő", "desc": "Teljes napos jelenlét, riportfotózás és művészi portrék. Az érzelmeket és a részleteket egyaránt rögzítem — úgy, ahogy a pillanat kéri." },
+        { "num": "002", "title": "Jegyes", "desc": "Laza, természetes hangulatú páros fotózás az esküvő előtt. Megismerkedünk, ráhangolódunk — és a képek máris mesélnek." },
+        { "num": "003", "title": "Család", "desc": "Közös pillanatok, őszinte mosolyok, igazi kapcsolódás. Stúdióban vagy szabadtéren, a lényeg az együtt töltött idő." },
+        { "num": "004", "title": "Portré", "desc": "Stúdiós és természetes fényű portrék egyéneknek, pároknak. Nyugodt, őszinte légkörben, ahol önmagad lehetsz." },
+        { "num": "005", "title": "Divat", "desc": "Kreatív és editorial fotózás márkáknak, stylistoknak, modelleknek. Karakteres, ötletes képek, amelyek kitűnnek." }
+      ]
+    },
+    "testimonials": {
+      "number": "— 04 / Kedves szavak",
+      "title": "Ajánlások",
+      "prev": "Előző",
+      "next": "Következő"
+    },
+    "contact": {
+      "number": "— 05 / Kapcsolat",
+      "title": "Dolgozzunk együtt",
+      "intro": "Írj néhány sort a projektedről — 48 órán belül válaszolok.",
+      "name": "Név",
+      "email": "Email",
+      "service": "Milyen fotózás érdekel?",
+      "servicePlaceholder": "Válassz...",
+      "serviceOptions": ["Esküvő", "Jegyes", "Családi", "Portré", "Divat", "Egyéb"],
+      "message": "Üzenet",
+      "submit": "Üzenet küldése",
+      "sending": "Küldés...",
+      "success": "Köszönöm az üzeneted! Hamarosan jelentkezem.",
+      "error": "Hiba történt. Próbáld újra, vagy írj a mrtmlnrphotography@gmail.com címre."
+    },
+    "footer": {
+      "menu": "Menü",
+      "follow": "Követés",
+      "rights": "Minden jog fenntartva"
+    }
+  },
+  "en": {
+    "nav": {
+      "portfolio": "Portfolio",
+      "about": "About",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "hero": {
+      "eyebrow": "Photography, with heart",
+      "title": "Where feelings\nbecome images",
+      "subtitle": "Wedding · Engagement · Family · Portrait · Fashion",
+      "scroll": "Scroll down"
+    },
+    "portfolio": {
+      "number": "— 01 / My Work",
+      "title": "Selected Collection",
+      "meta": "projects · 2020 — 2026"
+    },
+    "about": {
+      "number": "— 02 / About",
+      "title": "Every photo has a story behind it",
+      "paragraphs": [
+        "I was maybe eight years old when I first held a camera — and I have to admit, the results were far from great. But that moment sparked something that has never let me go.",
+        "Over the years I've had the privilege of learning from renowned and experienced professionals, and along the way I found what I truly love: telling people's stories through light and composition. Weddings, engagements, family sessions, portraits, fashion — every image holds a feeling worth preserving."
+      ],
+      "signature": "— Márta Molnár"
+    },
+    "services": {
+      "number": "— 03 / Services",
+      "title": "What I Offer",
+      "meta": "Five key areas",
+      "items": [
+        { "num": "001", "title": "Wedding", "desc": "Full-day coverage, reportage and artistic portraits. I capture both emotions and details — just as the moment calls for." },
+        { "num": "002", "title": "Engagement", "desc": "Relaxed, natural couple sessions before the big day. We get to know each other — and the photos start telling the story." },
+        { "num": "003", "title": "Family", "desc": "Shared moments, genuine smiles, real connection. In the studio or outdoors, what matters is the time spent together." },
+        { "num": "004", "title": "Portrait", "desc": "Studio and natural light portraits for individuals and couples. In a calm, honest atmosphere where you can be yourself." },
+        { "num": "005", "title": "Fashion", "desc": "Creative and editorial photography for brands, stylists, and models. Bold, imaginative images that stand out." }
+      ]
+    },
+    "testimonials": {
+      "number": "— 04 / Kind Words",
+      "title": "Testimonials",
+      "prev": "Previous",
+      "next": "Next"
+    },
+    "contact": {
+      "number": "— 05 / Contact",
+      "title": "Let's Work Together",
+      "intro": "Tell me a few words about your project — I'll reply within 48 hours.",
+      "name": "Name",
+      "email": "Email",
+      "service": "What type of session?",
+      "servicePlaceholder": "Choose...",
+      "serviceOptions": ["Wedding", "Engagement", "Family", "Portrait", "Fashion", "Other"],
+      "message": "Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you for your message! I'll get back to you soon.",
+      "error": "Something went wrong. Please try again, or email mrtmlnrphotography@gmail.com."
+    },
+    "footer": {
+      "menu": "Menu",
+      "follow": "Follow",
+      "rights": "All rights reserved"
+    }
+  }
+}

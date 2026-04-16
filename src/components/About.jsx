@@ -1,9 +1,11 @@
 import data from '../data/portfolio.json'
+import { useLang } from './LangContext'
 import useReveal from './useReveal'
 
 export default function About() {
   const imgReveal = useReveal()
   const contentReveal = useReveal()
+  const { t } = useLang()
 
   return (
     <section id="about">
@@ -14,12 +16,12 @@ export default function About() {
           style={{ backgroundImage: `url('${data.about.image}')` }}
         />
         <div ref={contentReveal.ref} className={`about-content ${contentReveal.className}`}>
-          <span className="section-number">— 02 / Rólam</span>
-          <h2>Minden fotó mögött áll egy történet</h2>
-          {data.about.paragraphs.map((p, i) => (
+          <span className="section-number">{t.about.number}</span>
+          <h2>{t.about.title}</h2>
+          {t.about.paragraphs.map((p, i) => (
             <p key={i}>{p}</p>
           ))}
-          <div className="about-signature">— Molnár Márta</div>
+          <div className="about-signature">{t.about.signature}</div>
         </div>
       </div>
     </section>

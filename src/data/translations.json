@@ -59,6 +59,20 @@
       "success": "Köszönöm az üzeneted! Hamarosan jelentkezem.",
       "error": "Hiba történt. Próbáld újra, vagy írj a mrtmlnrphotography@gmail.com címre."
     },
+    "categories": {
+      "Esküvő": "Esküvő",
+      "Portré": "Portré",
+      "Divat": "Divat",
+      "Családi": "Családi",
+      "Jegyes": "Jegyes"
+    },
+    "location": "Budapest, Magyarország",
+    "testimonialTexts": [
+      "Kreatív fotózásra kértük meg Mártit - egy laza, városi hangulatú sorozatot szerettünk volna. Mindkét helyszínen szuper koncepciókat talált ki, és sokat segített nekünk, mikor milyen beállításokat, mozdulatokat próbáljunk ki. Mikor megkaptuk a felvételeket, akkor láttuk meg igazán, ezek milyen jól működtek; a humorostól a bensőségesig sokféle, ötletes képünk lett, profin kidolgozva, mindamellett, hogy úgy érezzük, a képek igazán mi vagyunk.",
+      "Páros fotózáson voltunk Mártinál és már az elején nagyon jó hangulat alakult ki. A párom aki kifejezetten feszült és nem szereti ha fotózzák elengedte magát és felszabadultan állt a kamera előtt. Minden elképzelésünket fotóra vetette és a képekben is azt láttuk amire vágytunk. Szívből ajánlom, mi imádjuk a végeredményt, a képek önmagukért beszélnek.",
+      "Nagyon imádtam veled dolgozni, egyáltalán nem izgultam, vidám, felszabadult volt mindegyik fotózás. A végeredményeket pedig egyenesen imádom! Az életem legboldogabb pillanataiban fotóztál!! Mindig meleg szívvel nézem vissza a képeket és eszembe jutnak az akkori érzéseim. Köszönöm Neked!",
+      "Nagyon jó volt Mártival együtt alkotni. Nem kellett feszélyezve érezni magad. Nagyon jó fej és barátságos. Örültem, hogy fotózhattunk együtt. Bátran ajánlom bárkinek."
+    ],
     "footer": {
       "menu": "Menü",
       "follow": "Követés",
@@ -125,6 +139,20 @@
       "success": "Thank you for your message! I'll get back to you soon.",
       "error": "Something went wrong. Please try again, or email mrtmlnrphotography@gmail.com."
     },
+    "categories": {
+      "Esküvő": "Wedding",
+      "Portré": "Portrait",
+      "Divat": "Fashion",
+      "Családi": "Family",
+      "Jegyes": "Engagement"
+    },
+    "location": "Budapest, Hungary",
+    "testimonialTexts": [
+      "We asked Márti for a creative shoot — a relaxed, urban-style series. She came up with amazing concepts at both locations and helped us a lot with poses and movements. When we got the photos, we truly saw how well everything worked; from humorous to intimate, we got diverse, creative images, professionally crafted, while still feeling like the photos are truly us.",
+      "We had a couple's shoot with Márti and from the very start the atmosphere was great. My partner, who is quite tense and doesn't like being photographed, relaxed and stood freely in front of the camera. She captured all our ideas and in the images we saw exactly what we wished for. I wholeheartedly recommend her, we love the result, the photos speak for themselves.",
+      "I absolutely loved working with you, I wasn't nervous at all, every shoot was fun and liberating. And I absolutely adore the results! You photographed the happiest moments of my life!! I always look back at the photos with a warm heart and the feelings from those moments come rushing back. Thank you!",
+      "It was so great working with Márti. You didn't have to feel self-conscious. She's super cool and friendly. I'm glad we got to shoot together. I highly recommend her to anyone."
+    ],
     "footer": {
       "menu": "Menu",
       "follow": "Follow",

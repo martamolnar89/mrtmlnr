@@ -1,8 +1,10 @@
 import { useState, useEffect, useCallback } from 'react'
+import { useLang } from './LangContext'
 
 export default function Lightbox({ project, onClose }) {
   const [current, setCurrent] = useState(0)
   const images = project.gallery || [project.image]
+  const { t } = useLang()
 
   const go = useCallback((dir) => {
     setCurrent((prev) => (prev + dir + images.length) % images.length)
@@ -25,22 +27,18 @@ export default function Lightbox({ project, onClose }) {
   return (
     <div className="lightbox" onClick={onClose}>
       <div className="lightbox-inner" onClick={(e) => e.stopPropagation()}>
-        <button className="lightbox-close" onClick={onClose} aria-label="Bezárás">
+        <button className="lightbox-close" onClick={onClose} aria-label="Close">
           &times;
         </button>
 
         <div className="lightbox-header">
-          <span className="lightbox-category">{project.category}</span>
+          <span className="lightbox-category">{t.categories[project.category] || project.category}</span>
           <span className="lightbox-title">{project.title}</span>
         </div>
 
         <div className="lightbox-image-wrap">
           {images.length > 1 && (
-            <button
-              className="lightbox-arrow lightbox-arrow--left"
-              onClick={() => go(-1)}
-              aria-label="Előző"
-            >
+            <button className="lightbox-arrow lightbox-arrow--left" onClick={() => go(-1)} aria-label={t.testimonials.prev}>
               &#8592;
             </button>
           )}
@@ -52,11 +50,7 @@ export default function Lightbox({ project, onClose }) {
           />
 
           {images.length > 1 && (
-            <button
-              className="lightbox-arrow lightbox-arrow--right"
-              onClick={() => go(1)}
-              aria-label="Következő"
-            >
+            <button className="lightbox-arrow lightbox-arrow--right" onClick={() => go(1)} aria-label={t.testimonials.next}>
               &#8594;
             </button>
           )}

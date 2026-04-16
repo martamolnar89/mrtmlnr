@@ -33,7 +33,7 @@ export default function Testimonials() {
 
           <div className="testimonial-content">
             <blockquote className="testimonial-text">
-              &ldquo;{item.text}&rdquo;
+              &ldquo;{t.testimonialTexts[current]}&rdquo;
             </blockquote>
             <div className="testimonial-author">— {item.name}</div>
 

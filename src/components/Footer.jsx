@@ -9,7 +9,7 @@ export default function Footer() {
     <footer id="contact">
       <div>
         <h4>mrtmlnr photography</h4>
-        <p>{contact.location}</p>
+        <p>{t.location}</p>
         <p>{contact.email}</p>
       </div>
       <div>

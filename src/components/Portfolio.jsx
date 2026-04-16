@@ -4,7 +4,7 @@ import { useLang } from './LangContext'
 import useReveal from './useReveal'
 import Lightbox from './Lightbox'
 
-function PortfolioItem({ project, index, onClick }) {
+function PortfolioItem({ project, index, onClick, categories }) {
   const reveal = useReveal()
   const cls = `item-${index + 1}`
 
@@ -16,7 +16,7 @@ function PortfolioItem({ project, index, onClick }) {
     >
       <img src={project.image} alt={project.category} loading="lazy" />
       <div className="overlay">
-        <div className="category">{project.category}</div>
+        <div className="category">{categories[project.category] || project.category}</div>
         <div className="title">{project.title}</div>
       </div>
     </div>
@@ -47,6 +47,7 @@ export default function Portfolio() {
             project={project}
             index={i}
             onClick={setActive}
+            categories={t.categories}
           />
         ))}
       </div>

@@ -856,10 +856,16 @@ footer a:hover { color: var(--accent); }
   .testimonial-slider { grid-template-columns: 1fr; gap: 2rem; }
   .testimonial-image { aspect-ratio: 4/3; }
   .services-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .services-grid .service:nth-child(-n+3),
+  .services-grid .service:nth-child(4),
+  .services-grid .service:nth-child(5) {
+    grid-column: span 1;
+  }
   footer { grid-template-columns: 1fr; gap: 2rem; }
   .footer-bottom { flex-direction: column; gap: 1rem; text-align: center; }
 }
 
 @media (max-width: 600px) {
   .nav-links { display: none; }
+  nav { justify-content: flex-start; }
 }

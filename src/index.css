@@ -530,6 +530,18 @@ section { padding: 8rem 3rem; position: relative; }
   margin-bottom: 2rem;
 }
 
+.about-quote {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.9;
+  color: var(--accent);
+  border: none;
+  padding: 0;
+  margin: 0 0 2rem;
+  opacity: 0.85;
+}
+
 .about-content p {
   color: var(--fg-muted);
   line-height: 1.9;

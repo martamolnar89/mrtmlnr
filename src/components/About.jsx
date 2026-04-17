@@ -18,6 +18,7 @@ export default function About() {
         <div ref={contentReveal.ref} className={`about-content ${contentReveal.className}`}>
           <span className="section-number">{t.about.number}</span>
           <h2>{t.about.title}</h2>
+          {t.about.quote && <blockquote className="about-quote">&ldquo;{t.about.quote}&rdquo;</blockquote>}
           {t.about.paragraphs.map((p, i) => (
             <p key={i}>{p}</p>
           ))}

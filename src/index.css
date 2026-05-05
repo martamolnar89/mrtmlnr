@@ -563,6 +563,12 @@ section { padding: 8rem 3rem; position: relative; }
   background: var(--bg-elevated);
 }
 
+.services .section-header {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);

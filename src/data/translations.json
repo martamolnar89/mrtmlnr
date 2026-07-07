@@ -4,6 +4,7 @@
       "portfolio": "Portfólió",
       "about": "Rólam",
       "services": "Szolgáltatások",
+      "pricing": "Árak",
       "contact": "Kapcsolat"
     },
     "hero": {
@@ -39,14 +40,48 @@
         { "num": "005", "title": "Divat", "desc": "Kreatív és editorial fotózás márkáknak, stylistoknak, modelleknek. Karakteres, ötletes képek, amelyek kitűnnek." }
       ]
     },
+    "dividerQuote": "A pillanat elmúlik — a kép megmarad.",
+    "pricing": {
+      "number": "— 04 / Árak",
+      "title": "Csomagok és árak",
+      "meta": "Fotózás típusonként",
+      "items": [
+        { "title": "Mini fotózás", "price": "25.000 Ft", "desc": "30 perc, 1 helyszín, minden sikerült kép online galériában. Ideális, ha csak pár friss képre vágytok." },
+        { "title": "Családi fotózás", "price": "40.000 Ft", "desc": "60 perc kültéren vagy otthonotokban, minden sikerült kép szerkesztve, online galériában. Kutyus, nagyszülők, mindenki jöhet." },
+        { "title": "Kismama fotózás", "price": "40.000 Ft", "desc": "60 perc, 2 szett saját ruhával, minden sikerült kép. A 28–34. hét között a legszebb." },
+        { "title": "Újszülött fotózás", "price": "55.000 Ft", "desc": "1–2 óra az otthonotokban, nyugodt tempóban, etetés- és alvásszünetekkel. Minden sikerült kép, testvér- és családi képekkel együtt. Az első 2 hétben érdemes." },
+        { "title": "Portré / business fotó", "price": "25.000 Ft", "desc": "30–45 perc, minden sikerült kép (LinkedIn, önéletrajz, honlap)." },
+        { "title": "Esemény fotózás", "price": "40.000 Ft / óra", "desc": "Keresztelő, szülinap, rendezvény. Minimum 2 óra. Minden sikerült kép szerkesztve, online galériában 1 héten belül." }
+      ],
+      "weddingTitle": "Esküvő",
+      "weddingEyebrow": "A legszebb napotok",
+      "weddingItems": [
+        { "title": "Szertartás + kreatív fotózás", "price": "150.000 Ft", "desc": "4 óra rendelkezésre állás" },
+        { "title": "Fél napos", "price": "250.000 Ft", "desc": "8 óra rendelkezésre állás" },
+        { "title": "Egész napos", "price": "350.000 Ft", "desc": "12 óra, készülődéstől az első táncig" }
+      ],
+      "weddingIncludesTitle": "Minden esküvői csomag tartalma",
+      "weddingIncludes": [
+        "Összes sikerült kép szerkesztve (400+ kép egész napnál)",
+        "Online galéria",
+        "Kiszállás 30 km-en belül ingyenes, felette 100 Ft/km"
+      ],
+      "weddingTerms": "Foglaló 50.000 Ft · Képátadás 2–3 hét",
+      "terms": [
+        "Minden csomagnál az összes sikerült képet átadom, minimum 20 db garantálva (mini fotózásnál 10 db).",
+        "Foglaló 20%.",
+        "Képátadás 1 héten belül.",
+        "Rossz idő esetén ingyenes új időpont."
+      ]
+    },
     "testimonials": {
-      "number": "— 04 / Kedves szavak",
-      "title": "Ajánlások",
+      "number": "— 05 / Kedves szavak",
+      "title": "Ajánlás",
       "prev": "Előző",
       "next": "Következő"
     },
     "contact": {
-      "number": "— 05 / Kapcsolat",
+      "number": "— 06 / Kapcsolat",
       "title": "Dolgozzunk együtt",
       "intro": "Miben segíthetek? Írj bátran — 48 órán belül válaszolok.",
       "name": "Név",
@@ -85,6 +120,7 @@
       "portfolio": "Portfolio",
       "about": "About",
       "services": "Services",
+      "pricing": "Pricing",
       "contact": "Contact"
     },
     "hero": {
@@ -120,14 +156,48 @@
         { "num": "005", "title": "Fashion", "desc": "Creative and editorial photography for brands, stylists, and models. Bold, imaginative images that stand out." }
       ]
     },
+    "dividerQuote": "The moment passes — the photograph remains.",
+    "pricing": {
+      "number": "— 04 / Pricing",
+      "title": "Packages & Prices",
+      "meta": "By session type",
+      "items": [
+        { "title": "Mini session", "price": "25.000 Ft", "desc": "30 minutes, 1 location, every keeper photo in an online gallery. Ideal if you just want a few fresh images." },
+        { "title": "Family session", "price": "40.000 Ft", "desc": "60 minutes outdoors or at your home, every keeper photo edited, in an online gallery. The dog, grandparents, everyone's welcome." },
+        { "title": "Maternity session", "price": "40.000 Ft", "desc": "60 minutes, 2 outfits of your own, every keeper photo. Loveliest between weeks 28–34." },
+        { "title": "Newborn session", "price": "55.000 Ft", "desc": "1–2 hours at your home, at a calm pace, with feeding and sleep breaks. Every keeper photo, including sibling and family shots. Best within the first 2 weeks." },
+        { "title": "Portrait / business photo", "price": "25.000 Ft", "desc": "30–45 minutes, every keeper photo (LinkedIn, CV, website)." },
+        { "title": "Event photography", "price": "40.000 Ft / hour", "desc": "Christening, birthday, celebration. Minimum 2 hours. Every keeper photo edited, in an online gallery within 1 week." }
+      ],
+      "weddingTitle": "Wedding",
+      "weddingEyebrow": "Your most beautiful day",
+      "weddingItems": [
+        { "title": "Ceremony + creative shoot", "price": "150.000 Ft", "desc": "4 hours of coverage" },
+        { "title": "Half day", "price": "250.000 Ft", "desc": "8 hours of coverage" },
+        { "title": "Full day", "price": "350.000 Ft", "desc": "12 hours, from getting ready to the first dance" }
+      ],
+      "weddingIncludesTitle": "Every wedding package includes",
+      "weddingIncludes": [
+        "All keeper photos edited (400+ for a full day)",
+        "Online gallery",
+        "Travel free within 30 km, 100 Ft/km beyond"
+      ],
+      "weddingTerms": "Deposit 50.000 Ft · Photos delivered in 2–3 weeks",
+      "terms": [
+        "For every package I deliver all keeper photos, with a minimum of 20 guaranteed (10 for the mini session).",
+        "Deposit is 20%.",
+        "Photos delivered within 1 week.",
+        "Free rescheduling in case of bad weather."
+      ]
+    },
     "testimonials": {
-      "number": "— 04 / Kind Words",
+      "number": "— 05 / Kind Words",
       "title": "Testimonials",
       "prev": "Previous",
       "next": "Next"
     },
     "contact": {
-      "number": "— 05 / Contact",
+      "number": "— 06 / Contact",
       "title": "Let's Work Together",
       "intro": "How can I help? Drop me a message — I'll reply within 48 hours.",
       "name": "Name",

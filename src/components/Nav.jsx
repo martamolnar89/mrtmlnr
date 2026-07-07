@@ -29,6 +29,7 @@ export default function Nav() {
           <li><a href="#portfolio">{t.nav.portfolio}</a></li>
           <li><a href="#about">{t.nav.about}</a></li>
           <li><a href="#services">{t.nav.services}</a></li>
+          <li><a href="#pricing">{t.nav.pricing}</a></li>
           <li><a href="#contact-form">{t.nav.contact}</a></li>
           <li>
             <button className="lang-toggle" onClick={toggle}>
@@ -57,6 +58,7 @@ export default function Nav() {
           <li><a href="#portfolio" onClick={close}>{t.nav.portfolio}</a></li>
           <li><a href="#about" onClick={close}>{t.nav.about}</a></li>
           <li><a href="#services" onClick={close}>{t.nav.services}</a></li>
+          <li><a href="#pricing" onClick={close}>{t.nav.pricing}</a></li>
           <li><a href="#contact-form" onClick={close}>{t.nav.contact}</a></li>
         </ul>
       </div>

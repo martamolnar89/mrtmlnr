@@ -621,6 +621,283 @@ section { padding: 8rem 3rem; position: relative; }
   font-size: 0.9rem;
 }
 
+/* DIVIDER — full-width photo band between sections */
+.divider {
+  position: relative;
+  min-height: 82vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 9rem 2rem 6rem;
+  background-size: cover;
+  background-position: center 52%;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.divider-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 34% at center 26%, rgba(10, 10, 10, 0.5) 0%, transparent 75%),
+    linear-gradient(180deg, rgba(10, 10, 10, 0.25) 0%, rgba(10, 10, 10, 0.22) 55%, rgba(10, 10, 10, 0.35) 80%, var(--bg) 100%);
+}
+
+.divider-quote {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+  text-align: center;
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: clamp(1.35rem, 3vw, 2.1rem);
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: var(--fg);
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.8);
+}
+
+/* iOS ignores fixed attachment — fall back to scroll */
+@media (max-width: 900px) {
+  .divider {
+    background-attachment: scroll;
+    min-height: 42vh;
+    padding: 4rem 1.5rem;
+  }
+}
+
+/* PRICING */
+.pricing {
+  background: var(--bg);
+  padding-bottom: 4rem;
+}
+
+/* Package cards */
+.price-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.price-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 2rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--line);
+  transition: border-color 0.4s ease, transform 0.4s ease;
+}
+
+.price-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+}
+
+.price-card-title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.4;
+  margin-bottom: 1.25rem;
+}
+
+.price-card-amount {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 200;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+}
+
+.price-card-rule {
+  width: 2rem;
+  height: 1px;
+  background: var(--line-strong);
+  margin-bottom: 1.5rem;
+}
+
+.price-card-desc {
+  color: var(--fg-muted);
+  line-height: 1.85;
+  font-size: 0.88rem;
+}
+
+/* Wedding — featured block with photo background */
+.price-wedding {
+  position: relative;
+  margin-top: 4rem;
+  padding: 4rem 3.5rem;
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  background-size: cover;
+  background-position: center 38%;
+}
+
+.price-wedding::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10, 10, 10, 0.66) 0%, rgba(10, 10, 10, 0.52) 40%, rgba(10, 10, 10, 0.8) 100%);
+  z-index: 0;
+}
+
+.price-wedding > * { position: relative; z-index: 1; }
+
+.price-wedding-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-weight: 200;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.price-wedding-eyebrow {
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 400;
+  margin-bottom: 1.25rem;
+  display: block;
+}
+
+.price-wedding-tiers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+
+.price-tier {
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line-strong);
+  transition: border-color 0.3s;
+}
+
+.price-tier:hover { border-top-color: var(--accent); }
+
+.price-tier-amount {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 200;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.price-tier-name {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.price-tier-desc {
+  color: var(--fg-muted);
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+
+.price-wedding-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+}
+
+.price-wedding-includes-title {
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 400;
+  margin-bottom: 1.25rem;
+}
+
+.price-wedding-includes ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 0.6rem 2.5rem;
+}
+
+.price-wedding-includes li {
+  color: var(--fg-muted);
+  font-size: 0.85rem;
+  line-height: 1.6;
+  padding-left: 1.4rem;
+  position: relative;
+}
+
+.price-wedding-includes li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: 0.75rem;
+}
+
+.price-wedding-terms {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .price-wedding-includes ul { grid-template-columns: 1fr; }
+  .price-wedding-terms { white-space: normal; }
+}
+
+/* Terms — compact inline row under the cards */
+.price-terms {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 2rem;
+  margin-top: 2rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.price-terms li {
+  color: var(--fg-dim);
+  font-size: 0.8rem;
+  line-height: 1.6;
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.price-terms li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+@media (max-width: 900px) {
+  .price-grid { grid-template-columns: repeat(2, 1fr); }
+  .price-wedding-tiers { grid-template-columns: 1fr; gap: 1.5rem; }
+  .price-wedding { padding: 3rem 2rem; }
+}
+
+@media (max-width: 600px) {
+  .price-grid { grid-template-columns: 1fr; }
+}
+
 /* CONTACT FORM */
 .contact-form-section {
   padding: 8rem 3rem;

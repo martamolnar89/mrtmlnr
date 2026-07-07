@@ -18,9 +18,9 @@
       "title": "Válogatott gyűjtemény",
       "meta": "projekt · 2020 — 2026",
       "viewAll": "Összes megtekintése",
-      "galleryTitle": "Teljes galéria",
+      "galleryTitle": "Válogatott munkák",
       "galleryNumber": "— Galéria",
-      "galleryMeta": "Minden munkám",
+      "galleryMeta": "gyűjtemény",
       "filterAll": "Összes",
       "backHome": "Vissza a főoldalra"
     },
@@ -140,9 +140,9 @@
       "title": "Selected Collection",
       "meta": "projects · 2020 — 2026",
       "viewAll": "View all",
-      "galleryTitle": "Full Gallery",
+      "galleryTitle": "Selected Work",
       "galleryNumber": "— Gallery",
-      "galleryMeta": "All my work",
+      "galleryMeta": "collections",
       "filterAll": "All",
       "backHome": "Back to home"
     },

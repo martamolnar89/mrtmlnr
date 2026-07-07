@@ -1,8 +1,8 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useLang } from './LangContext'
 
-export default function Lightbox({ project, onClose }) {
-  const [current, setCurrent] = useState(0)
+export default function Lightbox({ project, onClose, startIndex = 0 }) {
+  const [current, setCurrent] = useState(startIndex)
   const images = project.gallery || [project.image]
   const { t } = useLang()
 

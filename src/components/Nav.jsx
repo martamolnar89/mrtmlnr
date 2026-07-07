@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useLang } from './LangContext'
 
-export default function Nav() {
+export default function Nav({ page }) {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const { lang, t, toggle } = useLang()
@@ -22,9 +22,9 @@ export default function Nav() {
   return (
     <>
       <nav style={{ padding: scrolled ? '1rem 3rem' : '1.75rem 3rem' }}>
-        <div className="logo">
+        <a href="/" className="logo" style={{ textDecoration: 'none', color: 'inherit' }}>
           mrtmlnr photography
-        </div>
+        </a>
         <ul className="nav-links">
           <li><a href="#portfolio">{t.nav.portfolio}</a></li>
           <li><a href="#about">{t.nav.about}</a></li>

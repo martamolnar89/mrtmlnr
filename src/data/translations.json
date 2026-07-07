@@ -16,7 +16,13 @@
     "portfolio": {
       "number": "— 01 / Munkáim",
       "title": "Válogatott gyűjtemény",
-      "meta": "projekt · 2020 — 2026"
+      "meta": "projekt · 2020 — 2026",
+      "viewAll": "Összes megtekintése",
+      "galleryTitle": "Teljes galéria",
+      "galleryNumber": "— Galéria",
+      "galleryMeta": "Minden munkám",
+      "filterAll": "Összes",
+      "backHome": "Vissza a főoldalra"
     },
     "about": {
       "number": "— 02 / Rólam",
@@ -132,7 +138,13 @@
     "portfolio": {
       "number": "— 01 / My Work",
       "title": "Selected Collection",
-      "meta": "projects · 2020 — 2026"
+      "meta": "projects · 2020 — 2026",
+      "viewAll": "View all",
+      "galleryTitle": "Full Gallery",
+      "galleryNumber": "— Gallery",
+      "galleryMeta": "All my work",
+      "filterAll": "All",
+      "backHome": "Back to home"
     },
     "about": {
       "number": "— 02 / About",

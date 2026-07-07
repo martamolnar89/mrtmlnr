@@ -87,20 +87,6 @@
       ]
     },
     {
-      "id": 3,
-      "category": "Divat",
-      "title": "Urban Soul",
-      "image": "/photos/portre-2/01.jpg",
-      "layout": "tall",
-      "gallery": [
-        "/photos/portre-2/01.jpg",
-        "/photos/portre-2/02.jpg",
-        "/photos/portre-2/03.jpg",
-        "/photos/portre-2/04.jpg",
-        "/photos/portre-2/05.jpg"
-      ]
-    },
-    {
       "id": 4,
       "category": "Esküvő",
       "title": "Zsófi & Peti",
@@ -162,6 +148,101 @@
         "/photos/jegyes-1/04.jpg", "/photos/jegyes-1/05.jpg", "/photos/jegyes-1/06.jpg",
         "/photos/jegyes-1/07.jpg", "/photos/jegyes-1/08.jpg", "/photos/jegyes-1/09.jpg",
         "/photos/jegyes-1/10.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "category": "Portré",
+      "title": "Urban Soul",
+      "image": "/photos/portre-urban-m/01.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/portre-urban-m/01.jpg", "/photos/portre-urban-m/02.jpg", "/photos/portre-urban-m/03.jpg",
+        "/photos/portre-urban-m/04.jpg", "/photos/portre-urban-m/05.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Jegyes",
+      "title": "Studio Elegance",
+      "image": "/photos/greti-bence/04.jpg",
+      "focus": "50% 25%",
+      "layout": "tall",
+      "gallery": [
+        "/photos/greti-bence/04.jpg", "/photos/greti-bence/02.jpg", "/photos/greti-bence/03.jpg",
+        "/photos/greti-bence/05.jpg", "/photos/greti-bence/06.jpg", "/photos/greti-bence/07.jpg",
+        "/photos/greti-bence/08.jpg", "/photos/greti-bence/09.jpg", "/photos/greti-bence/10.jpg",
+        "/photos/greti-bence/11.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Jegyes",
+      "title": "Urban Love",
+      "image": "/photos/varosi-jegyes/07.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/varosi-jegyes/07.jpg", "/photos/varosi-jegyes/01.jpg", "/photos/varosi-jegyes/02.jpg",
+        "/photos/varosi-jegyes/03.jpg", "/photos/varosi-jegyes/04.jpg", "/photos/varosi-jegyes/05.jpg",
+        "/photos/varosi-jegyes/06.jpg", "/photos/varosi-jegyes/08.jpg", "/photos/varosi-jegyes/09.jpg",
+        "/photos/varosi-jegyes/10.jpg", "/photos/varosi-jegyes/11.jpg", "/photos/varosi-jegyes/12.jpg",
+        "/photos/varosi-jegyes/13.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Portré",
+      "title": "Autumn Tones",
+      "image": "/photos/portre-redhead/02.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/portre-redhead/02.jpg", "/photos/portre-redhead/03.jpg", "/photos/portre-redhead/04.jpg",
+        "/photos/portre-redhead/05.jpg", "/photos/portre-redhead/01.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Portré",
+      "title": "City Geometry",
+      "image": "/photos/portre-arches/03.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/portre-arches/03.jpg", "/photos/portre-arches/01.jpg", "/photos/portre-arches/02.jpg",
+        "/photos/portre-arches/04.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Portré",
+      "title": "Quiet Morning",
+      "image": "/photos/portre-cafe/01.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/portre-cafe/01.jpg", "/photos/portre-cafe/02.jpg", "/photos/portre-cafe/05.jpg",
+        "/photos/portre-cafe/03.jpg", "/photos/portre-cafe/04.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Portré",
+      "title": "Fast Lane",
+      "image": "/photos/portre-moto/06.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/portre-moto/06.jpg", "/photos/portre-moto/07.jpg", "/photos/portre-moto/01.jpg",
+        "/photos/portre-moto/02.jpg", "/photos/portre-moto/03.jpg", "/photos/portre-moto/04.jpg",
+        "/photos/portre-moto/05.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Portré",
+      "title": "Studio Portrait",
+      "image": "/photos/portre-business/01.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/portre-business/01.jpg", "/photos/portre-business/02.jpg", "/photos/portre-business/03.jpg",
+        "/photos/portre-business/04.jpg", "/photos/portre-business/05.jpg"
       ]
     }
   ],

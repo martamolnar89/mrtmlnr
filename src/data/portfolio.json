@@ -244,6 +244,23 @@
         "/photos/portre-business/01.jpg", "/photos/portre-business/02.jpg", "/photos/portre-business/03.jpg",
         "/photos/portre-business/04.jpg", "/photos/portre-business/05.jpg"
       ]
+    },
+    {
+      "id": 16,
+      "category": "Esküvő",
+      "title": "Kastély esküvő",
+      "image": "/photos/eskuvo-3/08.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/eskuvo-3/08.jpg", "/photos/eskuvo-3/04.jpg", "/photos/eskuvo-3/05.jpg",
+        "/photos/eskuvo-3/06.jpg", "/photos/eskuvo-3/07.jpg", "/photos/eskuvo-3/09.jpg",
+        "/photos/eskuvo-3/10.jpg", "/photos/eskuvo-3/11.jpg", "/photos/eskuvo-3/12.jpg",
+        "/photos/eskuvo-3/13.jpg", "/photos/eskuvo-3/14.jpg", "/photos/eskuvo-3/15.jpg",
+        "/photos/eskuvo-3/16.jpg", "/photos/eskuvo-3/17.jpg", "/photos/eskuvo-3/18.jpg",
+        "/photos/eskuvo-3/19.jpg", "/photos/eskuvo-3/20.jpg", "/photos/eskuvo-3/21.jpg",
+        "/photos/eskuvo-3/22.jpg", "/photos/eskuvo-3/23.jpg", "/photos/eskuvo-3/01.jpg",
+        "/photos/eskuvo-3/02.jpg", "/photos/eskuvo-3/03.jpg"
+      ]
     }
   ],
   "about": {

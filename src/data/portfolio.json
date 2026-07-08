@@ -426,6 +426,44 @@
         "/photos/eskuvo-4/39.jpg",
         "/photos/eskuvo-4/40.jpg"
       ]
+    },
+    {
+      "id": 18,
+      "category": "Esküvő",
+      "title": "Erzsi & István",
+      "image": "/photos/eskuvo-5/13.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/eskuvo-5/13.jpg",
+        "/photos/eskuvo-5/01.jpg",
+        "/photos/eskuvo-5/02.jpg",
+        "/photos/eskuvo-5/03.jpg",
+        "/photos/eskuvo-5/04.jpg",
+        "/photos/eskuvo-5/05.jpg",
+        "/photos/eskuvo-5/06.jpg",
+        "/photos/eskuvo-5/07.jpg",
+        "/photos/eskuvo-5/08.jpg",
+        "/photos/eskuvo-5/09.jpg",
+        "/photos/eskuvo-5/10.jpg",
+        "/photos/eskuvo-5/11.jpg",
+        "/photos/eskuvo-5/12.jpg",
+        "/photos/eskuvo-5/14.jpg",
+        "/photos/eskuvo-5/15.jpg",
+        "/photos/eskuvo-5/16.jpg",
+        "/photos/eskuvo-5/17.jpg",
+        "/photos/eskuvo-5/18.jpg",
+        "/photos/eskuvo-5/19.jpg",
+        "/photos/eskuvo-5/20.jpg",
+        "/photos/eskuvo-5/21.jpg",
+        "/photos/eskuvo-5/22.jpg",
+        "/photos/eskuvo-5/23.jpg",
+        "/photos/eskuvo-5/24.jpg",
+        "/photos/eskuvo-5/25.jpg",
+        "/photos/eskuvo-5/26.jpg",
+        "/photos/eskuvo-5/27.jpg",
+        "/photos/eskuvo-5/28.jpg",
+        "/photos/eskuvo-5/29.jpg"
+      ]
     }
   ],
   "about": {

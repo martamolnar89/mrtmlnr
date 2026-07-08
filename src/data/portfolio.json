@@ -464,6 +464,47 @@
         "/photos/eskuvo-5/28.jpg",
         "/photos/eskuvo-5/29.jpg"
       ]
+    },
+    {
+      "id": 19,
+      "category": "Esküvő",
+      "title": "Szandra & Viktor",
+      "image": "/photos/eskuvo-6/19.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/eskuvo-6/19.jpg",
+        "/photos/eskuvo-6/01.jpg",
+        "/photos/eskuvo-6/02.jpg",
+        "/photos/eskuvo-6/03.jpg",
+        "/photos/eskuvo-6/04.jpg",
+        "/photos/eskuvo-6/05.jpg",
+        "/photos/eskuvo-6/06.jpg",
+        "/photos/eskuvo-6/07.jpg",
+        "/photos/eskuvo-6/08.jpg",
+        "/photos/eskuvo-6/09.jpg",
+        "/photos/eskuvo-6/10.jpg",
+        "/photos/eskuvo-6/11.jpg",
+        "/photos/eskuvo-6/12.jpg",
+        "/photos/eskuvo-6/13.jpg",
+        "/photos/eskuvo-6/14.jpg",
+        "/photos/eskuvo-6/15.jpg",
+        "/photos/eskuvo-6/16.jpg",
+        "/photos/eskuvo-6/17.jpg",
+        "/photos/eskuvo-6/18.jpg",
+        "/photos/eskuvo-6/20.jpg",
+        "/photos/eskuvo-6/21.jpg",
+        "/photos/eskuvo-6/22.jpg",
+        "/photos/eskuvo-6/23.jpg",
+        "/photos/eskuvo-6/24.jpg",
+        "/photos/eskuvo-6/25.jpg",
+        "/photos/eskuvo-6/26.jpg",
+        "/photos/eskuvo-6/27.jpg",
+        "/photos/eskuvo-6/28.jpg",
+        "/photos/eskuvo-6/29.jpg",
+        "/photos/eskuvo-6/30.jpg",
+        "/photos/eskuvo-6/31.jpg",
+        "/photos/eskuvo-6/32.jpg"
+      ]
     }
   ],
   "about": {

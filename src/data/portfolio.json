@@ -506,6 +506,105 @@
         "/photos/eskuvo-6/31.jpg",
         "/photos/eskuvo-6/32.jpg"
       ]
+    },
+    {
+      "id": 20,
+      "category": "Családi",
+      "title": "Első szülinap",
+      "image": "/photos/csalad-szulinap/06.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/csalad-szulinap/06.jpg",
+        "/photos/csalad-szulinap/01.jpg",
+        "/photos/csalad-szulinap/02.jpg",
+        "/photos/csalad-szulinap/03.jpg",
+        "/photos/csalad-szulinap/04.jpg",
+        "/photos/csalad-szulinap/05.jpg",
+        "/photos/csalad-szulinap/07.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "category": "Családi",
+      "title": "Négy generáció",
+      "image": "/photos/csalad-negy-no/11.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/csalad-negy-no/11.jpg",
+        "/photos/csalad-negy-no/01.jpg",
+        "/photos/csalad-negy-no/02.jpg",
+        "/photos/csalad-negy-no/03.jpg",
+        "/photos/csalad-negy-no/04.jpg",
+        "/photos/csalad-negy-no/05.jpg",
+        "/photos/csalad-negy-no/06.jpg",
+        "/photos/csalad-negy-no/07.jpg",
+        "/photos/csalad-negy-no/08.jpg",
+        "/photos/csalad-negy-no/09.jpg",
+        "/photos/csalad-negy-no/10.jpg"
+      ]
+    },
+    {
+      "id": 22,
+      "category": "Családi",
+      "title": "Karácsonyi pillanatok",
+      "image": "/photos/csalad-karacsony/01.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/csalad-karacsony/01.jpg",
+        "/photos/csalad-karacsony/02.jpg",
+        "/photos/csalad-karacsony/03.jpg",
+        "/photos/csalad-karacsony/04.jpg",
+        "/photos/csalad-karacsony/05.jpg",
+        "/photos/csalad-karacsony/06.jpg",
+        "/photos/csalad-karacsony/07.jpg",
+        "/photos/csalad-karacsony/08.jpg",
+        "/photos/csalad-karacsony/09.jpg",
+        "/photos/csalad-karacsony/10.jpg",
+        "/photos/csalad-karacsony/11.jpg",
+        "/photos/csalad-karacsony/12.jpg",
+        "/photos/csalad-karacsony/13.jpg",
+        "/photos/csalad-karacsony/14.jpg",
+        "/photos/csalad-karacsony/15.jpg",
+        "/photos/csalad-karacsony/16.jpg",
+        "/photos/csalad-karacsony/17.jpg",
+        "/photos/csalad-karacsony/18.jpg"
+      ]
+    },
+    {
+      "id": 23,
+      "category": "Családi",
+      "title": "Őszi séta",
+      "image": "/photos/csalad-osz/02.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/csalad-osz/02.jpg",
+        "/photos/csalad-osz/01.jpg",
+        "/photos/csalad-osz/03.jpg",
+        "/photos/csalad-osz/04.jpg",
+        "/photos/csalad-osz/05.jpg",
+        "/photos/csalad-osz/06.jpg",
+        "/photos/csalad-osz/07.jpg",
+        "/photos/csalad-osz/08.jpg"
+      ]
+    },
+    {
+      "id": 24,
+      "category": "Családi",
+      "title": "Apa és lánya",
+      "image": "/photos/csalad-studio/02.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/csalad-studio/02.jpg",
+        "/photos/csalad-studio/01.jpg",
+        "/photos/csalad-studio/03.jpg",
+        "/photos/csalad-studio/04.jpg",
+        "/photos/csalad-studio/05.jpg",
+        "/photos/csalad-studio/06.jpg",
+        "/photos/csalad-studio/07.jpg",
+        "/photos/csalad-studio/08.jpg",
+        "/photos/csalad-studio/09.jpg",
+        "/photos/csalad-studio/10.jpg"
+      ]
     }
   ],
   "about": {

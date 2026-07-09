@@ -526,7 +526,7 @@
     {
       "id": 21,
       "category": "Családi",
-      "title": "Négy generáció",
+      "title": "Anya és lányai",
       "image": "/photos/csalad-negy-no/11.jpg",
       "layout": "tall",
       "gallery": [
@@ -559,15 +559,24 @@
         "/photos/csalad-karacsony/07.jpg",
         "/photos/csalad-karacsony/08.jpg",
         "/photos/csalad-karacsony/09.jpg",
-        "/photos/csalad-karacsony/10.jpg",
-        "/photos/csalad-karacsony/11.jpg",
-        "/photos/csalad-karacsony/12.jpg",
-        "/photos/csalad-karacsony/13.jpg",
-        "/photos/csalad-karacsony/14.jpg",
-        "/photos/csalad-karacsony/15.jpg",
-        "/photos/csalad-karacsony/16.jpg",
-        "/photos/csalad-karacsony/17.jpg",
-        "/photos/csalad-karacsony/18.jpg"
+        "/photos/csalad-karacsony/10.jpg"
+      ]
+    },
+    {
+      "id": 25,
+      "category": "Családi",
+      "title": "Ünnepi hangulat",
+      "image": "/photos/csalad-karacsony-2/01.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/csalad-karacsony-2/01.jpg",
+        "/photos/csalad-karacsony-2/02.jpg",
+        "/photos/csalad-karacsony-2/03.jpg",
+        "/photos/csalad-karacsony-2/04.jpg",
+        "/photos/csalad-karacsony-2/05.jpg",
+        "/photos/csalad-karacsony-2/06.jpg",
+        "/photos/csalad-karacsony-2/07.jpg",
+        "/photos/csalad-karacsony-2/08.jpg"
       ]
     },
     {
@@ -585,25 +594,6 @@
         "/photos/csalad-osz/06.jpg",
         "/photos/csalad-osz/07.jpg",
         "/photos/csalad-osz/08.jpg"
-      ]
-    },
-    {
-      "id": 24,
-      "category": "Családi",
-      "title": "Apa és lánya",
-      "image": "/photos/csalad-studio/02.jpg",
-      "layout": "tall",
-      "gallery": [
-        "/photos/csalad-studio/02.jpg",
-        "/photos/csalad-studio/01.jpg",
-        "/photos/csalad-studio/03.jpg",
-        "/photos/csalad-studio/04.jpg",
-        "/photos/csalad-studio/05.jpg",
-        "/photos/csalad-studio/06.jpg",
-        "/photos/csalad-studio/07.jpg",
-        "/photos/csalad-studio/08.jpg",
-        "/photos/csalad-studio/09.jpg",
-        "/photos/csalad-studio/10.jpg"
       ]
     }
   ],

@@ -511,15 +511,15 @@
       "id": 20,
       "category": "Családi",
       "title": "Első szülinap",
-      "image": "/photos/csalad-szulinap/06.jpg",
+      "image": "/photos/csalad-szulinap/01.jpg",
       "layout": "tall",
       "gallery": [
-        "/photos/csalad-szulinap/06.jpg",
         "/photos/csalad-szulinap/01.jpg",
         "/photos/csalad-szulinap/02.jpg",
         "/photos/csalad-szulinap/03.jpg",
         "/photos/csalad-szulinap/04.jpg",
         "/photos/csalad-szulinap/05.jpg",
+        "/photos/csalad-szulinap/06.jpg",
         "/photos/csalad-szulinap/07.jpg"
       ]
     },

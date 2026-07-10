@@ -563,23 +563,6 @@
       ]
     },
     {
-      "id": 25,
-      "category": "Családi",
-      "title": "Ünnepi hangulat",
-      "image": "/photos/csalad-karacsony-2/01.jpg",
-      "layout": "tall",
-      "gallery": [
-        "/photos/csalad-karacsony-2/01.jpg",
-        "/photos/csalad-karacsony-2/02.jpg",
-        "/photos/csalad-karacsony-2/03.jpg",
-        "/photos/csalad-karacsony-2/04.jpg",
-        "/photos/csalad-karacsony-2/05.jpg",
-        "/photos/csalad-karacsony-2/06.jpg",
-        "/photos/csalad-karacsony-2/07.jpg",
-        "/photos/csalad-karacsony-2/08.jpg"
-      ]
-    },
-    {
       "id": 23,
       "category": "Családi",
       "title": "Őszi séta",
@@ -594,6 +577,23 @@
         "/photos/csalad-osz/06.jpg",
         "/photos/csalad-osz/07.jpg",
         "/photos/csalad-osz/08.jpg"
+      ]
+    },
+    {
+      "id": 25,
+      "category": "Családi",
+      "title": "Ünnepi hangulat",
+      "image": "/photos/csalad-karacsony-2/01.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/csalad-karacsony-2/01.jpg",
+        "/photos/csalad-karacsony-2/02.jpg",
+        "/photos/csalad-karacsony-2/03.jpg",
+        "/photos/csalad-karacsony-2/04.jpg",
+        "/photos/csalad-karacsony-2/05.jpg",
+        "/photos/csalad-karacsony-2/06.jpg",
+        "/photos/csalad-karacsony-2/07.jpg",
+        "/photos/csalad-karacsony-2/08.jpg"
       ]
     }
   ],

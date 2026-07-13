@@ -30,7 +30,7 @@
       "quote": "Az egyik szeretetnyelvem a fotózás és az élet megörökítése, mert soha nem leszünk ilyen fiatalok, mint most.",
       "paragraphs": [
         "Talán nyolcéves lehettem, amikor először fényképezőgépet fogtam a kezembe — és be kell valljam, nem lettek életem képei. De az a pillanat elindított valamit, ami azóta sem hagyott nyugodni.",
-        "Az évek során neves és tapasztalt mesterektől tanulhattam, és közben megtaláltam azt, amit igazán szeretek: az emberek történeteit elmesélni fénnyel és kompozícióval. Esküvők, jegyes- és családi fotózások, portrék — minden kép mögött egy érzés áll, amit érdemes megőrizni."
+        "Az évek során neves és tapasztalt szakemberektől tanulhattam, és közben megtaláltam azt, amit igazán szeretek: az emberek történeteit megmutatni a képeimen. Esküvők, jegyes- és családi fotózások, portrék — minden kép mögött egy érzés áll, amit érdemes megőrizni."
       ],
       "signature": "— Molnár Márta"
     },
@@ -102,19 +102,19 @@
       "weddingEyebrow": "A legszebb napotok",
       "weddingItems": [
         {
-          "title": "Szertartás + kreatív fotózás",
+          "title": "Mini csomag",
           "price": "150.000 Ft",
-          "desc": "4 óra rendelkezésre állás"
+          "desc": "4 óra – szertartás és kreatív fotózás"
         },
         {
-          "title": "Fél napos",
+          "title": "Basic csomag",
           "price": "250.000 Ft",
-          "desc": "8 óra rendelkezésre állás"
+          "desc": "8 óra – szertartástól a tortavágásig"
         },
         {
-          "title": "Egész napos",
+          "title": "Prémium csomag",
           "price": "350.000 Ft",
-          "desc": "12 óra, készülődéstől az első táncig"
+          "desc": "12 óra – készülődéstől a menyasszonytáncig"
         }
       ],
       "weddingIncludesTitle": "Minden esküvői csomag tartalma",
@@ -280,19 +280,19 @@
       "weddingEyebrow": "Your most beautiful day",
       "weddingItems": [
         {
-          "title": "Ceremony + creative shoot",
+          "title": "Mini package",
           "price": "150.000 Ft",
-          "desc": "4 hours of coverage"
+          "desc": "4 hours – ceremony and creative shoot"
         },
         {
-          "title": "Half day",
+          "title": "Basic package",
           "price": "250.000 Ft",
-          "desc": "8 hours of coverage"
+          "desc": "8 hours – from the ceremony to the cake cutting"
         },
         {
-          "title": "Full day",
+          "title": "Premium package",
           "price": "350.000 Ft",
-          "desc": "12 hours, from getting ready to the first dance"
+          "desc": "12 hours – from getting ready to the bride's dance"
         }
       ],
       "weddingIncludesTitle": "Every wedding package includes",

@@ -4,18 +4,25 @@
       "portfolio": "Portfólió",
       "about": "Rólam",
       "services": "Szolgáltatások",
+      "pricing": "Árak",
       "contact": "Kapcsolat"
     },
     "hero": {
       "eyebrow": "Fotográfia, szívvel",
       "title": "Ahol az érzések\nképpé válnak",
-      "subtitle": "Esküvő · Jegyes · Családi · Portré · Divat",
+      "subtitle": "Esküvő · Jegyes · Családi · Portré",
       "scroll": "Tekerj lejjebb"
     },
     "portfolio": {
       "number": "— 01 / Munkáim",
       "title": "Válogatott gyűjtemény",
-      "meta": "projekt · 2020 — 2026"
+      "meta": "projekt · 2020 — 2026",
+      "viewAll": "Összes megtekintése",
+      "galleryTitle": "Válogatott munkák",
+      "galleryNumber": "— Galéria",
+      "galleryMeta": "gyűjtemény",
+      "filterAll": "Összes",
+      "backHome": "Vissza a főoldalra"
     },
     "about": {
       "number": "— 02 / Rólam",
@@ -23,37 +30,128 @@
       "quote": "Az egyik szeretetnyelvem a fotózás és az élet megörökítése, mert soha nem leszünk ilyen fiatalok, mint most.",
       "paragraphs": [
         "Talán nyolcéves lehettem, amikor először fényképezőgépet fogtam a kezembe — és be kell valljam, nem lettek életem képei. De az a pillanat elindított valamit, ami azóta sem hagyott nyugodni.",
-        "Az évek során neves és tapasztalt mesterektől tanulhattam, és közben megtaláltam azt, amit igazán szeretek: az emberek történeteit elmesélni fénnyel és kompozícióval. Esküvők, jegyes- és családi fotózások, portrék, divatfotók — minden kép mögött egy érzés áll, amit érdemes megőrizni."
+        "Az évek során neves és tapasztalt szakemberektől tanulhattam, és közben megtaláltam azt, amit igazán szeretek: az emberek történeteit megmutatni a képeimen. Esküvők, jegyes- és családi fotózások, portrék — minden kép mögött egy érzés áll, amit érdemes megőrizni."
       ],
       "signature": "— Molnár Márta"
     },
     "services": {
       "number": "— 03 / Szolgáltatások",
       "title": "Amit kínálok",
-      "meta": "Öt fő terület",
+      "meta": "Négy fő terület",
       "items": [
-        { "num": "001", "title": "Esküvő", "desc": "Teljes napos jelenlét, riportfotózás és művészi portrék. Az érzelmeket és a részleteket egyaránt rögzítem — úgy, ahogy a pillanat kéri." },
-        { "num": "002", "title": "Jegyes", "desc": "Laza, természetes hangulatú páros fotózás az esküvő előtt. Megismerkedünk, ráhangolódunk — és a képek máris mesélnek." },
-        { "num": "003", "title": "Család", "desc": "Közös pillanatok, őszinte mosolyok, igazi kapcsolódás. Stúdióban vagy szabadtéren, a lényeg az együtt töltött idő." },
-        { "num": "004", "title": "Portré", "desc": "Stúdiós és természetes fényű portrék egyéneknek, pároknak. Nyugodt, őszinte légkörben, ahol önmagad lehetsz." },
-        { "num": "005", "title": "Divat", "desc": "Kreatív és editorial fotózás márkáknak, stylistoknak, modelleknek. Karakteres, ötletes képek, amelyek kitűnnek." }
+        {
+          "num": "001",
+          "title": "Esküvő",
+          "desc": "Teljes napos jelenlét, riportfotózás és művészi portrék. Az érzelmeket és a részleteket egyaránt rögzítem — úgy, ahogy a pillanat kéri."
+        },
+        {
+          "num": "002",
+          "title": "Jegyes",
+          "desc": "Laza, természetes hangulatú páros fotózás az esküvő előtt. Megismerkedünk, ráhangolódunk — és a képek máris mesélnek."
+        },
+        {
+          "num": "003",
+          "title": "Család",
+          "desc": "Közös pillanatok, őszinte mosolyok, igazi kapcsolódás. Stúdióban vagy szabadtéren, a lényeg az együtt töltött idő."
+        },
+        {
+          "num": "004",
+          "title": "Portré",
+          "desc": "Stúdiós és természetes fényű portrék egyéneknek, pároknak. Nyugodt, őszinte légkörben, ahol önmagad lehetsz."
+        }
+      ]
+    },
+    "dividerQuote": "A pillanat elmúlik — a kép megmarad.",
+    "pricing": {
+      "number": "— 04 / Árak",
+      "title": "Csomagok és árak",
+      "meta": "Fotózás típusonként",
+      "items": [
+        {
+          "title": "Mini fotózás",
+          "price": "25.000 Ft",
+          "desc": "30 perc, 1 helyszín, minden sikerült kép online galériában. Ideális, ha csak pár friss képre vágytok."
+        },
+        {
+          "title": "Családi fotózás",
+          "price": "40.000 Ft",
+          "desc": "60 perc kültéren vagy otthonotokban, minden sikerült kép szerkesztve, online galériában. Kutyus, nagyszülők, mindenki jöhet."
+        },
+        {
+          "title": "Kismama fotózás",
+          "price": "40.000 Ft",
+          "desc": "60 perc, 2 szett saját ruhával, minden sikerült kép. A 28–34. hét között a legszebb."
+        },
+        {
+          "title": "Újszülött fotózás",
+          "price": "55.000 Ft",
+          "desc": "1–2 óra az otthonotokban, nyugodt tempóban, etetés- és alvásszünetekkel. Minden sikerült kép, testvér- és családi képekkel együtt. Az első 2 hétben érdemes."
+        },
+        {
+          "title": "Portré / business fotó",
+          "price": "25.000 Ft",
+          "desc": "30–45 perc, minden sikerült kép (LinkedIn, önéletrajz, honlap)."
+        },
+        {
+          "title": "Esemény fotózás",
+          "price": "40.000 Ft / óra",
+          "desc": "Keresztelő, szülinap, rendezvény. Minimum 2 óra. Minden sikerült kép szerkesztve, online galériában 1 héten belül."
+        }
+      ],
+      "weddingTitle": "Esküvő",
+      "weddingEyebrow": "A legszebb napotok",
+      "weddingItems": [
+        {
+          "title": "Mini csomag",
+          "price": "150.000 Ft",
+          "desc": "4 óra – szertartás és kreatív fotózás"
+        },
+        {
+          "title": "Basic csomag",
+          "price": "250.000 Ft",
+          "desc": "8 óra – szertartástól a tortavágásig"
+        },
+        {
+          "title": "Prémium csomag",
+          "price": "350.000 Ft",
+          "desc": "12 óra – készülődéstől a menyasszonytáncig"
+        }
+      ],
+      "weddingIncludesTitle": "Minden esküvői csomag tartalma",
+      "weddingIncludes": [
+        "Összes sikerült kép szerkesztve (400+ kép egész napnál)",
+        "Online galéria",
+        "Kiszállás 30 km-en belül ingyenes, felette 100 Ft/km"
+      ],
+      "weddingTerms": "Foglaló 50.000 Ft · Képátadás 2–3 hét",
+      "terms": [
+        "Minden csomagnál az összes sikerült képet átadom, minimum 20 db garantálva (mini fotózásnál 10 db).",
+        "Foglaló 20%.",
+        "Képátadás 1 héten belül.",
+        "Rossz idő esetén ingyenes új időpont."
       ]
     },
     "testimonials": {
-      "number": "— 04 / Kedves szavak",
-      "title": "Ajánlások",
+      "number": "— 05 / Kedves szavak",
+      "title": "Ajánlás",
       "prev": "Előző",
       "next": "Következő"
     },
     "contact": {
-      "number": "— 05 / Kapcsolat",
+      "number": "— 06 / Kapcsolat",
       "title": "Dolgozzunk együtt",
       "intro": "Miben segíthetek? Írj bátran — 48 órán belül válaszolok.",
       "name": "Név",
       "email": "Email",
       "service": "Milyen fotózás érdekel?",
       "servicePlaceholder": "Válassz...",
-      "serviceOptions": ["Esküvő", "Jegyes", "Családi", "Portré", "Divat", "Egyéb"],
+      "serviceOptions": [
+        "Esküvő",
+        "Jegyes",
+        "Családi",
+        "Portré",
+        "Egyéb"
+      ],
       "message": "Üzenet",
       "submit": "Üzenet küldése",
       "sending": "Küldés...",
@@ -63,7 +161,6 @@
     "categories": {
       "Esküvő": "Esküvő",
       "Portré": "Portré",
-      "Divat": "Divat",
       "Családi": "Családi",
       "Jegyes": "Jegyes"
     },
@@ -85,18 +182,25 @@
       "portfolio": "Portfolio",
       "about": "About",
       "services": "Services",
+      "pricing": "Pricing",
       "contact": "Contact"
     },
     "hero": {
       "eyebrow": "Photography, with heart",
       "title": "Where feelings\nbecome images",
-      "subtitle": "Wedding · Engagement · Family · Portrait · Fashion",
+      "subtitle": "Wedding · Engagement · Family · Portrait",
       "scroll": "Scroll down"
     },
     "portfolio": {
       "number": "— 01 / My Work",
       "title": "Selected Collection",
-      "meta": "projects · 2020 — 2026"
+      "meta": "projects · 2020 — 2026",
+      "viewAll": "View all",
+      "galleryTitle": "Selected Work",
+      "galleryNumber": "— Gallery",
+      "galleryMeta": "collections",
+      "filterAll": "All",
+      "backHome": "Back to home"
     },
     "about": {
       "number": "— 02 / About",
@@ -104,37 +208,128 @@
       "quote": "One of my love languages is taking pictures, and documenting life, because we will never be this young again.",
       "paragraphs": [
         "I was maybe eight years old when I first held a camera — and I have to admit, the results were far from great. But that moment sparked something that has never let me go.",
-        "Over the years I've had the privilege of learning from renowned and experienced professionals, and along the way I found what I truly love: telling people's stories through light and composition. Weddings, engagements, family sessions, portraits, fashion — every image holds a feeling worth preserving."
+        "Over the years I've had the privilege of learning from renowned and experienced professionals, and along the way I found what I truly love: telling people's stories through light and composition. Weddings, engagements, family sessions, portraits — every image holds a feeling worth preserving."
       ],
       "signature": "— Márta Molnár"
     },
     "services": {
       "number": "— 03 / Services",
       "title": "What I Offer",
-      "meta": "Five key areas",
+      "meta": "Four key areas",
       "items": [
-        { "num": "001", "title": "Wedding", "desc": "Full-day coverage, reportage and artistic portraits. I capture both emotions and details — just as the moment calls for." },
-        { "num": "002", "title": "Engagement", "desc": "Relaxed, natural couple sessions before the big day. We get to know each other — and the photos start telling the story." },
-        { "num": "003", "title": "Family", "desc": "Shared moments, genuine smiles, real connection. In the studio or outdoors, what matters is the time spent together." },
-        { "num": "004", "title": "Portrait", "desc": "Studio and natural light portraits for individuals and couples. In a calm, honest atmosphere where you can be yourself." },
-        { "num": "005", "title": "Fashion", "desc": "Creative and editorial photography for brands, stylists, and models. Bold, imaginative images that stand out." }
+        {
+          "num": "001",
+          "title": "Wedding",
+          "desc": "Full-day coverage, reportage and artistic portraits. I capture both emotions and details — just as the moment calls for."
+        },
+        {
+          "num": "002",
+          "title": "Engagement",
+          "desc": "Relaxed, natural couple sessions before the big day. We get to know each other — and the photos start telling the story."
+        },
+        {
+          "num": "003",
+          "title": "Family",
+          "desc": "Shared moments, genuine smiles, real connection. In the studio or outdoors, what matters is the time spent together."
+        },
+        {
+          "num": "004",
+          "title": "Portrait",
+          "desc": "Studio and natural light portraits for individuals and couples. In a calm, honest atmosphere where you can be yourself."
+        }
+      ]
+    },
+    "dividerQuote": "The moment passes — the photograph remains.",
+    "pricing": {
+      "number": "— 04 / Pricing",
+      "title": "Packages & Prices",
+      "meta": "By session type",
+      "items": [
+        {
+          "title": "Mini session",
+          "price": "25.000 Ft",
+          "desc": "30 minutes, 1 location, every keeper photo in an online gallery. Ideal if you just want a few fresh images."
+        },
+        {
+          "title": "Family session",
+          "price": "40.000 Ft",
+          "desc": "60 minutes outdoors or at your home, every keeper photo edited, in an online gallery. The dog, grandparents, everyone's welcome."
+        },
+        {
+          "title": "Maternity session",
+          "price": "40.000 Ft",
+          "desc": "60 minutes, 2 outfits of your own, every keeper photo. Loveliest between weeks 28–34."
+        },
+        {
+          "title": "Newborn session",
+          "price": "55.000 Ft",
+          "desc": "1–2 hours at your home, at a calm pace, with feeding and sleep breaks. Every keeper photo, including sibling and family shots. Best within the first 2 weeks."
+        },
+        {
+          "title": "Portrait / business photo",
+          "price": "25.000 Ft",
+          "desc": "30–45 minutes, every keeper photo (LinkedIn, CV, website)."
+        },
+        {
+          "title": "Event photography",
+          "price": "40.000 Ft / hour",
+          "desc": "Christening, birthday, celebration. Minimum 2 hours. Every keeper photo edited, in an online gallery within 1 week."
+        }
+      ],
+      "weddingTitle": "Wedding",
+      "weddingEyebrow": "Your most beautiful day",
+      "weddingItems": [
+        {
+          "title": "Mini package",
+          "price": "150.000 Ft",
+          "desc": "4 hours – ceremony and creative shoot"
+        },
+        {
+          "title": "Basic package",
+          "price": "250.000 Ft",
+          "desc": "8 hours – from the ceremony to the cake cutting"
+        },
+        {
+          "title": "Premium package",
+          "price": "350.000 Ft",
+          "desc": "12 hours – from getting ready to the bride's dance"
+        }
+      ],
+      "weddingIncludesTitle": "Every wedding package includes",
+      "weddingIncludes": [
+        "All keeper photos edited (400+ for a full day)",
+        "Online gallery",
+        "Travel free within 30 km, 100 Ft/km beyond"
+      ],
+      "weddingTerms": "Deposit 50.000 Ft · Photos delivered in 2–3 weeks",
+      "terms": [
+        "For every package I deliver all keeper photos, with a minimum of 20 guaranteed (10 for the mini session).",
+        "Deposit is 20%.",
+        "Photos delivered within 1 week.",
+        "Free rescheduling in case of bad weather."
       ]
     },
     "testimonials": {
-      "number": "— 04 / Kind Words",
+      "number": "— 05 / Kind Words",
       "title": "Testimonials",
       "prev": "Previous",
       "next": "Next"
     },
     "contact": {
-      "number": "— 05 / Contact",
+      "number": "— 06 / Contact",
       "title": "Let's Work Together",
       "intro": "How can I help? Drop me a message — I'll reply within 48 hours.",
       "name": "Name",
       "email": "Email",
       "service": "What type of session?",
       "servicePlaceholder": "Choose...",
-      "serviceOptions": ["Wedding", "Engagement", "Family", "Portrait", "Fashion", "Other"],
+      "serviceOptions": [
+        "Wedding",
+        "Engagement",
+        "Family",
+        "Portrait",
+        "Other"
+      ],
       "message": "Message",
       "submit": "Send Message",
       "sending": "Sending...",
@@ -144,7 +339,6 @@
     "categories": {
       "Esküvő": "Wedding",
       "Portré": "Portrait",
-      "Divat": "Fashion",
       "Családi": "Family",
       "Jegyes": "Engagement"
     },

@@ -41,7 +41,7 @@ export default function Portfolio() {
       </div>
 
       <div className="portfolio-grid">
-        {data.projects.map((project, i) => (
+        {data.projects.slice(0, 6).map((project, i) => (
           <PortfolioItem
             key={project.id}
             project={project}
@@ -50,6 +50,10 @@ export default function Portfolio() {
             categories={t.categories}
           />
         ))}
+      </div>
+
+      <div className="portfolio-cta">
+        <a href="/galeria" className="portfolio-view-all">{t.portfolio.viewAll}</a>
       </div>
 
       {active && (

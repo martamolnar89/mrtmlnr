@@ -276,6 +276,31 @@
       ]
     },
     {
+      "id": 27,
+      "category": "Jegyes",
+      "title": "Autumn Vows",
+      "image": "/photos/anna-bence/01.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/anna-bence/01.jpg",
+        "/photos/anna-bence/02.jpg",
+        "/photos/anna-bence/03.jpg",
+        "/photos/anna-bence/04.jpg",
+        "/photos/anna-bence/05.jpg",
+        "/photos/anna-bence/06.jpg",
+        "/photos/anna-bence/07.jpg",
+        "/photos/anna-bence/08.jpg",
+        "/photos/anna-bence/09.jpg",
+        "/photos/anna-bence/10.jpg",
+        "/photos/anna-bence/11.jpg",
+        "/photos/anna-bence/12.jpg",
+        "/photos/anna-bence/13.jpg",
+        "/photos/anna-bence/14.jpg",
+        "/photos/anna-bence/15.jpg",
+        "/photos/anna-bence/16.jpg"
+      ]
+    },
+    {
       "id": 9,
       "category": "Portré",
       "title": "Autumn Tones",
@@ -594,6 +619,26 @@
         "/photos/csalad-karacsony-2/06.jpg",
         "/photos/csalad-karacsony-2/07.jpg",
         "/photos/csalad-karacsony-2/08.jpg"
+      ]
+    },
+    {
+      "id": 26,
+      "category": "Családi",
+      "title": "Várakozás",
+      "image": "/photos/csalad-kismama/01.jpg",
+      "layout": "tall",
+      "gallery": [
+        "/photos/csalad-kismama/01.jpg",
+        "/photos/csalad-kismama/02.jpg",
+        "/photos/csalad-kismama/03.jpg",
+        "/photos/csalad-kismama/04.jpg",
+        "/photos/csalad-kismama/05.jpg",
+        "/photos/csalad-kismama/06.jpg",
+        "/photos/csalad-kismama/07.jpg",
+        "/photos/csalad-kismama/08.jpg",
+        "/photos/csalad-kismama/09.jpg",
+        "/photos/csalad-kismama/10.jpg",
+        "/photos/csalad-kismama/11.jpg"
       ]
     }
   ],
